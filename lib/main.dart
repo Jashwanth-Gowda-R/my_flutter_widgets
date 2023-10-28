@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_widgets/views/widgets/list_grid.dart';
+import 'package:flutter_widgets/views/widgets/snackbar.dart';
 
 void main() {
   runApp(const MyApp());
@@ -19,7 +19,7 @@ class MyApp extends StatelessWidget {
         primaryColor: Colors.deepPurple,
         useMaterial3: true,
       ),
-      home: const ListGrid(),
+      home: const SnackbarWidget(),
     );
   }
 }
