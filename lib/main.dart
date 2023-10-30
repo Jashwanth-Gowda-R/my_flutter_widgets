@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_widgets/views/widgets/alert.dart';
+import 'package:flutter_widgets/views/widgets/bottomsheet.dart';
 
 void main() {
   runApp(const MyApp());
@@ -15,11 +15,11 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       title: 'Flutter Demo',
       theme: ThemeData(
-        brightness: Brightness.dark,
-        primaryColor: Colors.deepPurple,
+        brightness: Brightness.light,
+        primaryColor: Colors.orange,
         useMaterial3: true,
       ),
-      home: const AlertWidget(),
+      home: const BottonSheetWidget(),
     );
   }
 }
