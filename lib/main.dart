@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_widgets/views/widgets/stack.dart';
+import 'package:flutter_widgets/views/widgets/tabbar.dart';
 
 void main() {
   runApp(const MyApp());
@@ -19,7 +19,7 @@ class MyApp extends StatelessWidget {
         primaryColor: Colors.greenAccent,
         useMaterial3: true,
       ),
-      home: const StackWidget(),
+      home: const TabBarWidget(),
     );
   }
 }
