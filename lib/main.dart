@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_widgets/views/widgets/geolocation.dart';
+import 'package:flutter_widgets/views/UI/cloning_1/day19.dart';
 
 void main() {
   runApp(const MyApp());
@@ -19,7 +19,7 @@ class MyApp extends StatelessWidget {
         primaryColor: Colors.greenAccent,
         useMaterial3: true,
       ),
-      home: const GeolocationWidget(),
+      home: const Day19(),
     );
   }
 }
