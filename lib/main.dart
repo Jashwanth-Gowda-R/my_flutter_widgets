@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_widgets/views/widgets/tabbar.dart';
+import 'package:flutter_widgets/views/widgets/imagepicker.dart';
 
 void main() {
   runApp(const MyApp());
@@ -19,7 +19,7 @@ class MyApp extends StatelessWidget {
         primaryColor: Colors.greenAccent,
         useMaterial3: true,
       ),
-      home: const TabBarWidget(),
+      home: const ImgPicker(),
     );
   }
 }
