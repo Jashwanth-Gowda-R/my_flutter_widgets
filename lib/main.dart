@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_widgets/views/widgets/animated_text.dart';
+import 'package:flutter_widgets/views/widgets/bottom_nav.dart';
 
 void main() {
   runApp(const MyApp());
@@ -16,10 +16,10 @@ class MyApp extends StatelessWidget {
       title: 'Flutter Demo',
       theme: ThemeData(
         brightness: Brightness.light,
-        primaryColor: Colors.orange,
+        primaryColor: Colors.greenAccent,
         useMaterial3: true,
       ),
-      home: const AnimatedTextWidgets(),
+      home: const BottomNav(),
     );
   }
 }
