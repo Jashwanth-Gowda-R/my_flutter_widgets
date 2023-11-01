@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_widgets/views/UI/complex_clone_2/day20.dart';
+import 'package:flutter_widgets/views/widgets/futurebuilder.dart';
 
 void main() {
   runApp(const MyApp());
@@ -19,7 +19,7 @@ class MyApp extends StatelessWidget {
         primaryColor: Colors.greenAccent,
         useMaterial3: true,
       ),
-      home: const Day20(),
+      home: const FutureBuilderWidget(),
     );
   }
 }
